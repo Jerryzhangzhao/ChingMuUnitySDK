@@ -65,15 +65,10 @@ public static class CMUnity
         public Vector3 position;
         public Quaternion orientation;
 
-        //public static DevicePose GetDevicePose(UnityEngine.XR.XRNode node)
-        //{
-        //    DevicePose pose = new DevicePose();
-        //    pose.position = InputTracking.GetLocalPosition(node);
-        //    pose.orientation = InputTracking.GetLocalRotation(node);
-        //    return pose;
-        //}
+
     }
     /// <summary>
+    /// 开启追踪线程
     /// when you want to start CMU Tracker Thread,you can call this function;
     /// </summary>
     /// <returns></returns>
@@ -84,7 +79,7 @@ public static class CMUnity
 
 
     /// <summary>
-    /// when you want to unload CMUnity.dll module, you should call this function firstly,
+    /// 关闭追踪线程
     /// when you want to stop CMU Tracker Thread,you can call this function in OnDestroy ;
     /// </summary>
     /// <returns></returns>
@@ -94,6 +89,7 @@ public static class CMUnity
     }
 
     /// <summary>
+    /// 是否打印追踪日志
     /// Enable CMUnity to log;
     /// </summary>
     /// <returns></returns>
@@ -103,7 +99,7 @@ public static class CMUnity
     }
 
     /// <summary>
-    /// 追踪日志  
+    /// 获取被追踪的手柄上的摇杆数据。
     /// Track log
     /// </summary>
     /// <param name="address">ServerIP，for example:"MCServer@192.168.3.178" or "MCServer@SH1DT010"</param>
