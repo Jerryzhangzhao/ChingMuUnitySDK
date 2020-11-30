@@ -6,7 +6,7 @@
 ## 二、插件在Unity 2018 中的使用
 ### 1.安装插件
 &emsp;&emsp;将ChingMuPluginForUnity2018.unitypackage包导入unity2018.2.0或unity2018.2.0以上的版本。
-<p align="center"> <img src="./doc/Images/导入插件"></p>  
+<p align="center"> <img src="./doc/Images/导入插件.png"></p>  
 <p align="center">图 1-1 导入插件</p> 
 
 ### 2.在追踪client里面添加动捕演员与刚体
